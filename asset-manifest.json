@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/biswajit-portfolio/static/css/main.cd8ab930.css",
+    "main.js": "/biswajit-portfolio/static/js/main.9df8f0e5.js",
+    "static/media/me-about.jpg": "/biswajit-portfolio/static/media/me-about.a857857f736cc989a857.jpg",
+    "static/media/portfolio2.png": "/biswajit-portfolio/static/media/portfolio2.51cee6b3eb670bdd7968.png",
+    "static/media/portfolio4.jpg": "/biswajit-portfolio/static/media/portfolio4.ad44659b88eacaded247.jpg",
+    "static/media/bg-texture.png": "/biswajit-portfolio/static/media/bg-texture.fffcc31fdd4317f95abb.png",
+    "static/media/portfolio6.png": "/biswajit-portfolio/static/media/portfolio6.988be490097ea273d623.png",
+    "static/media/me.png": "/biswajit-portfolio/static/media/me.ccc651920e5793e3f9dd.png",
+    "static/media/portfolio5.png": "/biswajit-portfolio/static/media/portfolio5.63674ed41fa17de75006.png",
+    "static/media/Pramanik_resume_second.pdf": "/biswajit-portfolio/static/media/Pramanik_resume_second.7e5de2130133d6b0e99c.pdf",
+    "static/media/portfolio3.jpg": "/biswajit-portfolio/static/media/portfolio3.4ded85b64f06f058ad42.jpg",
+    "static/media/tax.png": "/biswajit-portfolio/static/media/tax.de3f12da02c4da62b9fb.png",
+    "index.html": "/biswajit-portfolio/index.html",
+    "main.cd8ab930.css.map": "/biswajit-portfolio/static/css/main.cd8ab930.css.map",
+    "main.9df8f0e5.js.map": "/biswajit-portfolio/static/js/main.9df8f0e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8ab930.css",
+    "static/js/main.9df8f0e5.js"
+  ]
+}
