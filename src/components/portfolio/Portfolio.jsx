@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/tax.png';
-import IMG2 from '../../assets/portfolio2.png';
+import IMG2 from '../../assets/live-weather.png';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
@@ -19,8 +19,8 @@ const portfolioData = [
     id: 2,
     image: IMG2,
     title: 'Live Weather Forecast',
-    github: 'https://github.com',
-    demo: '#'
+    github: 'https://github.com/CodeCrafterBiswa/weather-live-forecast.git',
+    demo: 'https://codecrafterbiswa.github.io/weather-live-forecast/'
   },
   {
     id: 3,
