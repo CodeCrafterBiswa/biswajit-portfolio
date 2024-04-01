@@ -3,7 +3,7 @@
 Welcome to my full-stack developer portfolio! This repository showcases my skills in web development using HTML, CSS, JavaScript, and React.js.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![HTML](https://img.shields.io/badge/HTML-5-blue)](https://html.com/)
+[![HTML](https://img.shields.io/badge/HTML-5-yellow)](https://html.com/)
 [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://www.w3.org/Style/CSS/Overview.en.html)
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-21.5.0-green)](https://nodejs.org/)
