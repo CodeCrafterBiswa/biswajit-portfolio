@@ -55,12 +55,12 @@ npm start
 # Open your browser and visit http://localhost:3000 to view the website.
 
 
-## Usage
+#Usage
 You can visit my portfolio for more update on my work and for connect with me directly
 
-## Contact
+#Contact
 Feel free to reach out to me at jbiswajitpramanik@gmail.com for any questions or collaboration opportunities.
 
-## License
+#License
 This project is licensed under the MIT License.
 
