@@ -23,20 +23,23 @@ Feel free to browse through my projects and get in touch to discuss how we can c
 
 List the key features of your project:
 
-- Feature 1
-- Feature 2
+- You can download my updated resume
+- You can get my complete experience and expertise
+- You connect with me directly through contact me form, email, facebook and whatsapp
+- You can find what service I provide
+- You can visit my recent works on different projects
 - ...
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project locally. Include any prerequisites, such as software or dependencies, that users need to have installed beforehand.
+Providing step-by-step instructions on how to install and set up your project locally. Include any prerequisites, such as software or dependencies, that users need to have installed beforehand.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/CodeCrafterBiswa/biswajit-portfolio.git
 
 # Navigate to the project directory
-cd project-name
+cd biswajit-portfolio
 
 # Install dependencies
 npm install
