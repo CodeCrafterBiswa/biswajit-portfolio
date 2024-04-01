@@ -13,7 +13,11 @@ This is my personal professional portfolio
 
 ## About
 
-Provide a more detailed description of your project here. Explain its purpose, goals, and any relevant background information. You can also include screenshots or GIFs to showcase your project.
+Welcome to my portfolio showcasing my skills in full-stack web development! I have designed this website using a combination of HTML, CSS, and JavaScript for the front-end, and React.js for creating dynamic and interactive user interfaces.
+
+As you explore my projects, you'll see how I leverage my expertise in both front-end and back-end technologies to build responsive, user-friendly, and scalable web applications. From designing elegant UI/UX components to implementing robust server-side functionalities, I am passionate about creating seamless digital experiences.
+
+Feel free to browse through my projects and get in touch to discuss how we can collaborate on your next web development endeavor.
 
 ## Features
 
