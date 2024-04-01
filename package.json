@@ -1,6 +1,6 @@
 {
   "name": "my_portfolio_website",
-  "homepage": "http://CodeCrafterBiswa.github.io/biswajit-portfolio",
+  "homepage": "http://biswajitwebportfolio.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
