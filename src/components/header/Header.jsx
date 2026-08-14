@@ -6,19 +6,33 @@ import HeaderSocials from './HeaderSocials';
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Biswajit Pramanik</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
-        <CTA />
-        <HeaderSocials />
-
-        <div className='me'>
-          <img src={ME} alt="me" />
+        <div>
+          <span className="header__eyebrow">Senior Software Consultant</span>
+          <h1 className="header__title">Biswajit Pramanik</h1>
+          <p className="header__role">
+            Building secure, scalable platforms for <strong>government, ERP, and enterprise</strong> systems
+          </p>
+          <p className="header__summary">
+            4+ years designing and delivering frontend architecture, multi-role access control, and
+            data visualization for national survey platforms (NSO/MoSPI) and enterprise ERP &amp; revenue
+            management systems — using React.js, .NET Core, Node.js, and Azure.
+          </p>
+          <CTA />
+          <HeaderSocials />
         </div>
 
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <div className="header__visual">
+          <div className="header__visual-image">
+            <img src={ME} alt="Biswajit Pramanik" />
+          </div>
+          <div className="header__visual-caption">
+            <span><strong>4+</strong>Years Experience</span>
+            <span><strong>6</strong>Major Platforms</span>
+            <span><strong>2</strong>ISO Certifications</span>
+          </div>
+        </div>
       </div>
     </header>
   )
