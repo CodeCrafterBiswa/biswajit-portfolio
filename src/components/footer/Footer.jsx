@@ -1,28 +1,28 @@
 import React from 'react';
 import './footer.css';
-import {FaFacebookF} from 'react-icons/fa';
-import {FiInstagram} from 'react-icons/fi';
-import {IoLogoTwitter} from 'react-icons/io';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { MdOutlineEmail } from 'react-icons/md';
 
 const Footer = () => {
   return (
     <footer>
-      <a className='footer__logo' rel="noreferrer">Biswajit</a>
+      <a href='#home' className='footer__logo'>Biswajit Pramanik</a>
       <ul className='permalinks'>
-        <li><a href='#' rel="noreferrer">Home</a></li>
-        <li><a href='#about' rel="noreferrer">About</a></li>
-        <li><a href='#experience' rel="noreferrer">Experience</a></li>
-        <li><a href='#services' rel="noreferrer">Services</a></li>
-        <li><a href='#portfolio' rel="noreferrer">Portfolio</a></li>
-        <li><a href='#contact' rel="noreferrer">Contact</a></li>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#portfolio'>Work</a></li>
+        <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://www.facebook.com/profile.php?id=100088333083625' target='_blank' rel="noreferrer"><FaFacebookF /></a>
-        <a href='https://www.instagram.com/shivay_biswa/' target='_blank' rel="noreferrer"><FiInstagram /></a>
-        <a href='https://twitter.com/BiswajitPra90' target='_blank' rel="noreferrer"><IoLogoTwitter /></a>
+        <a href='https://www.linkedin.com/in/biswajit-pramanik/' target='_blank' rel="noreferrer"><BsLinkedin /></a>
+        <a href='https://github.com/CodeCrafterBiswa' target='_blank' rel="noreferrer"><FaGithub /></a>
+        <a href='mailto:jbiswajitpramanik@gmail.com' target='_blank' rel="noreferrer"><MdOutlineEmail /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Biswajit Pramanik. All rights reserved.</small>
+        <small>&copy; {new Date().getFullYear()} Biswajit Pramanik. All rights reserved.</small>
       </div>
     </footer>
   )

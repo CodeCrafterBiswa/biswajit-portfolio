@@ -1,21 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.css';
-import { AiOutlineHome } from 'react-icons/ai';
-import { AiOutlineUser } from 'react-icons/ai';
-import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
-import { BiMessageSquareDetail } from 'react-icons/bi';
-import { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { VscTools } from 'react-icons/vsc';
+import { RiFolderLine } from 'react-icons/ri';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#home');
+
+  const links = [
+    { href: '#home', icon: <AiOutlineHome /> },
+    { href: '#about', icon: <AiOutlineUser /> },
+    { href: '#experience', icon: <BiBook /> },
+    { href: '#skills', icon: <VscTools /> },
+    { href: '#portfolio', icon: <RiFolderLine /> },
+    { href: '#contact', icon: <BiMessageSquareDetail /> },
+  ];
+
   return (
     <nav>
-      <a href='#' onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href='#about' onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href='#experience' onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
-      <a href='#services' onClick={()=>setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href='#contact' onClick={()=>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      {links.map((link) => (
+        <a
+          key={link.href}
+          href={link.href}
+          onClick={() => setActiveNav(link.href)}
+          className={activeNav === link.href ? 'active' : ''}
+        >
+          {link.icon}
+        </a>
+      ))}
     </nav>
   )
 }
